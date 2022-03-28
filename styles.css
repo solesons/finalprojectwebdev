@@ -1,0 +1,11 @@
+.quoteboxes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.happy,
+.sad,
+.motivational {
+  border: 1px solid black;
+}
