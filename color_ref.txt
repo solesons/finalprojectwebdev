@@ -1,0 +1,12 @@
+#19323C black text in light green bg
+
+#E6EFE9 white text in dark green bg
+
+#A7C4A0 light green bg
+
+#0B6532 dark green bg
+
+#add8e6 light blue
+max width 120 px
+
+
