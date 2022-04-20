@@ -1,12 +1,31 @@
-.quoteboxes {
+/*  Controls the placement of the buttons. */
+.quote_boxes {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
-
-.happy,
-.sad,
-.motivational {
-  border: 1px solid black;
+/* Controls the color of the body and webpage. */
+body {
+  background-color: #ffffbd;
+  background-image: url("motivational.jpeg");
 }
-/*This is just a testing comment, don't mind this push*/
+/* The design and colors of the buttons themselves. */
+button {
+  background: #428bca;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  height: 60px;
+  width: 150px;
+  line-height: 60px;
+  margin: 25px 25px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
+}
+/* Functionality of the boxes, like hovering.  */
+button:hover {
+  background: #3071a9;
+}
+
+/*This is just a testing comment, don't mind this push */
